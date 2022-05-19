@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="MarioVersion1" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/MarioVersion1" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="D:/programming/Cpp project at class/testSDL/SDL2-2.0.20/x86_64-w64-mingw32/include" />
+					<Add directory="D:/programming/Cpp project at class/testSDL/SDL2-2.0.20/x86_64-w64-mingw32/include/SDL2" />
+					<Add directory="D:/programming/Cpp project at class/testSDL/SDL_mixer/x86_64-w64-mingw32/include" />
+					<Add directory="D:/programming/Cpp project at class/testSDL/SDL_ttf/SDL2_ttf-2.0.15/x86_64-w64-mingw32/include" />
+					<Add directory="D:/programming/Cpp project at class/testSDL/SDL_image/x86_64-w64-mingw32/include" />
+				</Compiler>
+				<Linker>
+					<Add library="mingw32" />
+					<Add library="SDL2main" />
+					<Add library="SDL2" />
+					<Add library="SDL2_image" />
+					<Add library="SDL2_mixer" />
+					<Add library="SDL2_ttf" />
+					<Add directory="D:/programming/Cpp project at class/testSDL/SDL2-2.0.20/x86_64-w64-mingw32/lib" />
+					<Add directory="D:/programming/Cpp project at class/testSDL/SDL_mixer/x86_64-w64-mingw32/lib" />
+					<Add directory="D:/programming/Cpp project at class/testSDL/SDL_ttf/SDL2_ttf-2.0.15/x86_64-w64-mingw32/lib" />
+					<Add directory="D:/programming/Cpp project at class/testSDL/SDL_image/x86_64-w64-mingw32/lib" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/MarioVersion1" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="../../BTLMarioProject/MarioProjectFinal/MarioProjectFinal/AnimatedSprite.cpp" />
+		<Unit filename="../../BTLMarioProject/MarioProjectFinal/MarioProjectFinal/AnimatedSprite.h" />
+		<Unit filename="../../BTLMarioProject/MarioProjectFinal/MarioProjectFinal/AudioManager.cpp" />
+		<Unit filename="../../BTLMarioProject/MarioProjectFinal/MarioProjectFinal/AudioManager.h" />
+		<Unit filename="../../BTLMarioProject/MarioProjectFinal/MarioProjectFinal/Character.cpp" />
+		<Unit filename="../../BTLMarioProject/MarioProjectFinal/MarioProjectFinal/Character.h" />
+		<Unit filename="../../BTLMarioProject/MarioProjectFinal/MarioProjectFinal/Coin.cpp" />
+		<Unit filename="../../BTLMarioProject/MarioProjectFinal/MarioProjectFinal/Coin.h" />
+		<Unit filename="../../BTLMarioProject/MarioProjectFinal/MarioProjectFinal/Collisions.cpp" />
+		<Unit filename="../../BTLMarioProject/MarioProjectFinal/MarioProjectFinal/Collisions.h" />
+		<Unit filename="../../BTLMarioProject/MarioProjectFinal/MarioProjectFinal/Common.h" />
+		<Unit filename="../../BTLMarioProject/MarioProjectFinal/MarioProjectFinal/Constants.h" />
+		<Unit filename="../../BTLMarioProject/MarioProjectFinal/MarioProjectFinal/DebugConstants.h" />
+		<Unit filename="../../BTLMarioProject/MarioProjectFinal/MarioProjectFinal/Enemy.cpp" />
+		<Unit filename="../../BTLMarioProject/MarioProjectFinal/MarioProjectFinal/Enemy.h" />
+		<Unit filename="../../BTLMarioProject/MarioProjectFinal/MarioProjectFinal/EnemyKoopa.cpp" />
+		<Unit filename="../../BTLMarioProject/MarioProjectFinal/MarioProjectFinal/EnemyKoopa.h" />
+		<Unit filename="../../BTLMarioProject/MarioProjectFinal/MarioProjectFinal/Font.cpp" />
+		<Unit filename="../../BTLMarioProject/MarioProjectFinal/MarioProjectFinal/Font.h" />
+		<Unit filename="../../BTLMarioProject/MarioProjectFinal/MarioProjectFinal/GameScreen.cpp" />
+		<Unit filename="../../BTLMarioProject/MarioProjectFinal/MarioProjectFinal/GameScreen.h" />
+		<Unit filename="../../BTLMarioProject/MarioProjectFinal/MarioProjectFinal/GameScreenError.cpp" />
+		<Unit filename="../../BTLMarioProject/MarioProjectFinal/MarioProjectFinal/GameScreenError.h" />
+		<Unit filename="../../BTLMarioProject/MarioProjectFinal/MarioProjectFinal/GameScreenGameOver.cpp" />
+		<Unit filename="../../BTLMarioProject/MarioProjectFinal/MarioProjectFinal/GameScreenGameOver.h" />
+		<Unit filename="../../BTLMarioProject/MarioProjectFinal/MarioProjectFinal/GameScreenIntro.cpp" />
+		<Unit filename="../../BTLMarioProject/MarioProjectFinal/MarioProjectFinal/GameScreenIntro.h" />
+		<Unit filename="../../BTLMarioProject/MarioProjectFinal/MarioProjectFinal/GameScreenLevel1.cpp" />
+		<Unit filename="../../BTLMarioProject/MarioProjectFinal/MarioProjectFinal/GameScreenLevel1.h" />
+		<Unit filename="../../BTLMarioProject/MarioProjectFinal/MarioProjectFinal/GameScreenLevelBase.cpp" />
+		<Unit filename="../../BTLMarioProject/MarioProjectFinal/MarioProjectFinal/GameScreenLevelBase.h" />
+		<Unit filename="../../BTLMarioProject/MarioProjectFinal/MarioProjectFinal/GameScreenManager.cpp" />
+		<Unit filename="../../BTLMarioProject/MarioProjectFinal/MarioProjectFinal/GameScreenManager.h" />
+		<Unit filename="../../BTLMarioProject/MarioProjectFinal/MarioProjectFinal/LevelMap.cpp" />
+		<Unit filename="../../BTLMarioProject/MarioProjectFinal/MarioProjectFinal/LevelMap.h" />
+		<Unit filename="../../BTLMarioProject/MarioProjectFinal/MarioProjectFinal/Player.cpp" />
+		<Unit filename="../../BTLMarioProject/MarioProjectFinal/MarioProjectFinal/Player.h" />
+		<Unit filename="../../BTLMarioProject/MarioProjectFinal/MarioProjectFinal/PlayerLuigi.cpp" />
+		<Unit filename="../../BTLMarioProject/MarioProjectFinal/MarioProjectFinal/PlayerLuigi.h" />
+		<Unit filename="../../BTLMarioProject/MarioProjectFinal/MarioProjectFinal/PlayerMario.cpp" />
+		<Unit filename="../../BTLMarioProject/MarioProjectFinal/MarioProjectFinal/PlayerMario.h" />
+		<Unit filename="../../BTLMarioProject/MarioProjectFinal/MarioProjectFinal/PowBlock.cpp" />
+		<Unit filename="../../BTLMarioProject/MarioProjectFinal/MarioProjectFinal/PowBlock.h" />
+		<Unit filename="../../BTLMarioProject/MarioProjectFinal/MarioProjectFinal/SDL2/SDL/image_include/SDL_image.h" />
+		<Unit filename="../../BTLMarioProject/MarioProjectFinal/MarioProjectFinal/SDL2/SDL/include/SDL.h" />
+		<Unit filename="../../BTLMarioProject/MarioProjectFinal/MarioProjectFinal/SDL2/SDL/include/SDL_assert.h" />
+		<Unit filename="../../BTLMarioProject/MarioProjectFinal/MarioProjectFinal/SDL2/SDL/include/SDL_atomic.h" />
+		<Unit filename="../../BTLMarioProject/MarioProjectFinal/MarioProjectFinal/SDL2/SDL/include/SDL_audio.h" />
+		<Unit filename="../../BTLMarioProject/MarioProjectFinal/MarioProjectFinal/SDL2/SDL/include/SDL_bits.h" />
+		<Unit filename="../../BTLMarioProject/MarioProjectFinal/MarioProjectFinal/SDL2/SDL/include/SDL_blendmode.h" />
+		<Unit filename="../../BTLMarioProject/MarioProjectFinal/MarioProjectFinal/SDL2/SDL/include/SDL_clipboard.h" />
+		<Unit filename="../../BTLMarioProject/MarioProjectFinal/MarioProjectFinal/SDL2/SDL/include/SDL_config.h" />
+		<Unit filename="../../BTLMarioProject/MarioProjectFinal/MarioProjectFinal/SDL2/SDL/include/SDL_config_android.h" />
+		<Unit filename="../../BTLMarioProject/MarioProjectFinal/MarioProjectFinal/SDL2/SDL/include/SDL_config_iphoneos.h" />
+		<Unit filename="../../BTLMarioProject/MarioProjectFinal/MarioProjectFinal/SDL2/SDL/include/SDL_config_macosx.h" />
+		<Unit filename="../../BTLMarioProject/MarioProjectFinal/MarioProjectFinal/SDL2/SDL/include/SDL_config_minimal.h" />
+		<Unit filename="../../BTLMarioProject/MarioProjectFinal/MarioProjectFinal/SDL2/SDL/include/SDL_config_pandora.h" />
+		<Unit filename="../../BTLMarioProject/MarioProjectFinal/MarioProjectFinal/SDL2/SDL/include/SDL_config_psp.h" />
+		<Unit filename="../../BTLMarioProject/MarioProjectFinal/MarioProjectFinal/SDL2/SDL/include/SDL_config_windows.h" />
+		<Unit filename="../../BTLMarioProject/MarioProjectFinal/MarioProjectFinal/SDL2/SDL/include/SDL_config_winrt.h" />
+		<Unit filename="../../BTLMarioProject/MarioProjectFinal/MarioProjectFinal/SDL2/SDL/include/SDL_config_wiz.h" />
+		<Unit filename="../../BTLMarioProject/MarioProjectFinal/MarioProjectFinal/SDL2/SDL/include/SDL_copying.h" />
+		<Unit filename="../../BTLMarioProject/MarioProjectFinal/MarioProjectFinal/SDL2/SDL/include/SDL_cpuinfo.h" />
+		<Unit filename="../../BTLMarioProject/MarioProjectFinal/MarioProjectFinal/SDL2/SDL/include/SDL_egl.h" />
+		<Unit filename="../../BTLMarioProject/MarioProjectFinal/MarioProjectFinal/SDL2/SDL/include/SDL_endian.h" />
+		<Unit filename="../../BTLMarioProject/MarioProjectFinal/MarioProjectFinal/SDL2/SDL/include/SDL_error.h" />
+		<Unit filename="../../BTLMarioProject/MarioProjectFinal/MarioProjectFinal/SDL2/SDL/include/SDL_events.h" />
+		<Unit filename="../../BTLMarioProject/MarioProjectFinal/MarioProjectFinal/SDL2/SDL/include/SDL_filesystem.h" />
+		<Unit filename="../../BTLMarioProject/MarioProjectFinal/MarioProjectFinal/SDL2/SDL/include/SDL_gamecontroller.h" />
+		<Unit filename="../../BTLMarioProject/MarioProjectFinal/MarioProjectFinal/SDL2/SDL/include/SDL_gesture.h" />
+		<Unit filename="../../BTLMarioProject/MarioProjectFinal/MarioProjectFinal/SDL2/SDL/include/SDL_haptic.h" />
+		<Unit filename="../../BTLMarioProject/MarioProjectFinal/MarioProjectFinal/SDL2/SDL/include/SDL_hints.h" />
+		<Unit filename="../../BTLMarioProject/MarioProjectFinal/MarioProjectFinal/SDL2/SDL/include/SDL_joystick.h" />
+		<Unit filename="../../BTLMarioProject/MarioProjectFinal/MarioProjectFinal/SDL2/SDL/include/SDL_keyboard.h" />
+		<Unit filename="../../BTLMarioProject/MarioProjectFinal/MarioProjectFinal/SDL2/SDL/include/SDL_keycode.h" />
+		<Unit filename="../../BTLMarioProject/MarioProjectFinal/MarioProjectFinal/SDL2/SDL/include/SDL_loadso.h" />
+		<Unit filename="../../BTLMarioProject/MarioProjectFinal/MarioProjectFinal/SDL2/SDL/include/SDL_log.h" />
+		<Unit filename="../../BTLMarioProject/MarioProjectFinal/MarioProjectFinal/SDL2/SDL/include/SDL_main.h" />
+		<Unit filename="../../BTLMarioProject/MarioProjectFinal/MarioProjectFinal/SDL2/SDL/include/SDL_messagebox.h" />
+		<Unit filename="../../BTLMarioProject/MarioProjectFinal/MarioProjectFinal/SDL2/SDL/include/SDL_metal.h" />
+		<Unit filename="../../BTLMarioProject/MarioProjectFinal/MarioProjectFinal/SDL2/SDL/include/SDL_mouse.h" />
+		<Unit filename="../../BTLMarioProject/MarioProjectFinal/MarioProjectFinal/SDL2/SDL/include/SDL_mutex.h" />
+		<Unit filename="../../BTLMarioProject/MarioProjectFinal/MarioProjectFinal/SDL2/SDL/include/SDL_name.h" />
+		<Unit filename="../../BTLMarioProject/MarioProjectFinal/MarioProjectFinal/SDL2/SDL/include/SDL_opengl.h" />
+		<Unit filename="../../BTLMarioProject/MarioProjectFinal/MarioProjectFinal/SDL2/SDL/include/SDL_opengl_glext.h" />
+		<Unit filename="../../BTLMarioProject/MarioProjectFinal/MarioProjectFinal/SDL2/SDL/include/SDL_opengles.h" />
+		<Unit filename="../../BTLMarioProject/MarioProjectFinal/MarioProjectFinal/SDL2/SDL/include/SDL_opengles2.h" />
+		<Unit filename="../../BTLMarioProject/MarioProjectFinal/MarioProjectFinal/SDL2/SDL/include/SDL_opengles2_gl2.h" />
+		<Unit filename="../../BTLMarioProject/MarioProjectFinal/MarioProjectFinal/SDL2/SDL/include/SDL_opengles2_gl2ext.h" />
+		<Unit filename="../../BTLMarioProject/MarioProjectFinal/MarioProjectFinal/SDL2/SDL/include/SDL_opengles2_gl2platform.h" />
+		<Unit filename="../../BTLMarioProject/MarioProjectFinal/MarioProjectFinal/SDL2/SDL/include/SDL_opengles2_khrplatform.h" />
+		<Unit filename="../../BTLMarioProject/MarioProjectFinal/MarioProjectFinal/SDL2/SDL/include/SDL_pixels.h" />
+		<Unit filename="../../BTLMarioProject/MarioProjectFinal/MarioProjectFinal/SDL2/SDL/include/SDL_platform.h" />
+		<Unit filename="../../BTLMarioProject/MarioProjectFinal/MarioProjectFinal/SDL2/SDL/include/SDL_power.h" />
+		<Unit filename="../../BTLMarioProject/MarioProjectFinal/MarioProjectFinal/SDL2/SDL/include/SDL_quit.h" />
+		<Unit filename="../../BTLMarioProject/MarioProjectFinal/MarioProjectFinal/SDL2/SDL/include/SDL_rect.h" />
+		<Unit filename="../../BTLMarioProject/MarioProjectFinal/MarioProjectFinal/SDL2/SDL/include/SDL_render.h" />
+		<Unit filename="../../BTLMarioProject/MarioProjectFinal/MarioProjectFinal/SDL2/SDL/include/SDL_revision.h" />
+		<Unit filename="../../BTLMarioProject/MarioProjectFinal/MarioProjectFinal/SDL2/SDL/include/SDL_rwops.h" />
+		<Unit filename="../../BTLMarioProject/MarioProjectFinal/MarioProjectFinal/SDL2/SDL/include/SDL_scancode.h" />
+		<Unit filename="../../BTLMarioProject/MarioProjectFinal/MarioProjectFinal/SDL2/SDL/include/SDL_sensor.h" />
+		<Unit filename="../../BTLMarioProject/MarioProjectFinal/MarioProjectFinal/SDL2/SDL/include/SDL_shape.h" />
+		<Unit filename="../../BTLMarioProject/MarioProjectFinal/MarioProjectFinal/SDL2/SDL/include/SDL_stdinc.h" />
+		<Unit filename="../../BTLMarioProject/MarioProjectFinal/MarioProjectFinal/SDL2/SDL/include/SDL_surface.h" />
+		<Unit filename="../../BTLMarioProject/MarioProjectFinal/MarioProjectFinal/SDL2/SDL/include/SDL_system.h" />
+		<Unit filename="../../BTLMarioProject/MarioProjectFinal/MarioProjectFinal/SDL2/SDL/include/SDL_syswm.h" />
+		<Unit filename="../../BTLMarioProject/MarioProjectFinal/MarioProjectFinal/SDL2/SDL/include/SDL_test.h" />
+		<Unit filename="../../BTLMarioProject/MarioProjectFinal/MarioProjectFinal/SDL2/SDL/include/SDL_test_assert.h" />
+		<Unit filename="../../BTLMarioProject/MarioProjectFinal/MarioProjectFinal/SDL2/SDL/include/SDL_test_common.h" />
+		<Unit filename="../../BTLMarioProject/MarioProjectFinal/MarioProjectFinal/SDL2/SDL/include/SDL_test_compare.h" />
+		<Unit filename="../../BTLMarioProject/MarioProjectFinal/MarioProjectFinal/SDL2/SDL/include/SDL_test_crc32.h" />
+		<Unit filename="../../BTLMarioProject/MarioProjectFinal/MarioProjectFinal/SDL2/SDL/include/SDL_test_font.h" />
+		<Unit filename="../../BTLMarioProject/MarioProjectFinal/MarioProjectFinal/SDL2/SDL/include/SDL_test_fuzzer.h" />
+		<Unit filename="../../BTLMarioProject/MarioProjectFinal/MarioProjectFinal/SDL2/SDL/include/SDL_test_harness.h" />
+		<Unit filename="../../BTLMarioProject/MarioProjectFinal/MarioProjectFinal/SDL2/SDL/include/SDL_test_images.h" />
+		<Unit filename="../../BTLMarioProject/MarioProjectFinal/MarioProjectFinal/SDL2/SDL/include/SDL_test_log.h" />
+		<Unit filename="../../BTLMarioProject/MarioProjectFinal/MarioProjectFinal/SDL2/SDL/include/SDL_test_md5.h" />
+		<Unit filename="../../BTLMarioProject/MarioProjectFinal/MarioProjectFinal/SDL2/SDL/include/SDL_test_memory.h" />
+		<Unit filename="../../BTLMarioProject/MarioProjectFinal/MarioProjectFinal/SDL2/SDL/include/SDL_test_random.h" />
+		<Unit filename="../../BTLMarioProject/MarioProjectFinal/MarioProjectFinal/SDL2/SDL/include/SDL_thread.h" />
+		<Unit filename="../../BTLMarioProject/MarioProjectFinal/MarioProjectFinal/SDL2/SDL/include/SDL_timer.h" />
+		<Unit filename="../../BTLMarioProject/MarioProjectFinal/MarioProjectFinal/SDL2/SDL/include/SDL_touch.h" />
+		<Unit filename="../../BTLMarioProject/MarioProjectFinal/MarioProjectFinal/SDL2/SDL/include/SDL_types.h" />
+		<Unit filename="../../BTLMarioProject/MarioProjectFinal/MarioProjectFinal/SDL2/SDL/include/SDL_version.h" />
+		<Unit filename="../../BTLMarioProject/MarioProjectFinal/MarioProjectFinal/SDL2/SDL/include/SDL_video.h" />
+		<Unit filename="../../BTLMarioProject/MarioProjectFinal/MarioProjectFinal/SDL2/SDL/include/SDL_vulkan.h" />
+		<Unit filename="../../BTLMarioProject/MarioProjectFinal/MarioProjectFinal/SDL2/SDL/include/begin_code.h" />
+		<Unit filename="../../BTLMarioProject/MarioProjectFinal/MarioProjectFinal/SDL2/SDL/include/close_code.h" />
+		<Unit filename="../../BTLMarioProject/MarioProjectFinal/MarioProjectFinal/SDL2/SDL/mixer_include/SDL_mixer.h" />
+		<Unit filename="../../BTLMarioProject/MarioProjectFinal/MarioProjectFinal/SDL2/SDL/ttf_include/SDL_ttf.h" />
+		<Unit filename="../../BTLMarioProject/MarioProjectFinal/MarioProjectFinal/SoundEffect.cpp" />
+		<Unit filename="../../BTLMarioProject/MarioProjectFinal/MarioProjectFinal/SoundEffect.h" />
+		<Unit filename="../../BTLMarioProject/MarioProjectFinal/MarioProjectFinal/TextBox.cpp" />
+		<Unit filename="../../BTLMarioProject/MarioProjectFinal/MarioProjectFinal/TextBox.h" />
+		<Unit filename="../../BTLMarioProject/MarioProjectFinal/MarioProjectFinal/Texture2D.cpp" />
+		<Unit filename="../../BTLMarioProject/MarioProjectFinal/MarioProjectFinal/Texture2D.h" />
+		<Unit filename="../../BTLMarioProject/MarioProjectFinal/MarioProjectFinal/main.cpp" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

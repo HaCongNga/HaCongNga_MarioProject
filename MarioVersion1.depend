@@ -1,0 +1,637 @@
+# depslib dependency file v1.0
+1619519804 source:d:\programming\cpp project at class\btlmarioproject\marioprojectfinal\marioprojectfinal\animatedsprite.cpp
+	<iostream>
+	"Texture2D.h"
+
+1619519804 d:\programming\cpp project at class\btlmarioproject\marioprojectfinal\marioprojectfinal\texture2d.h
+	<string>
+	<SDL.h>
+	"Common.h"
+
+1641849092 d:\programming\cpp project at class\testsdl\sdl2-2.0.20\x86_64-w64-mingw32\include\sdl2\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_assert.h"
+	"SDL_atomic.h"
+	"SDL_audio.h"
+	"SDL_clipboard.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_filesystem.h"
+	"SDL_gamecontroller.h"
+	"SDL_haptic.h"
+	"SDL_hidapi.h"
+	"SDL_hints.h"
+	"SDL_joystick.h"
+	"SDL_loadso.h"
+	"SDL_log.h"
+	"SDL_messagebox.h"
+	"SDL_metal.h"
+	"SDL_mutex.h"
+	"SDL_power.h"
+	"SDL_render.h"
+	"SDL_rwops.h"
+	"SDL_sensor.h"
+	"SDL_shape.h"
+	"SDL_system.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_version.h"
+	"SDL_video.h"
+	"SDL_locale.h"
+	"SDL_misc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641849092 d:\programming\cpp project at class\testsdl\sdl2-2.0.20\x86_64-w64-mingw32\include\sdl2\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641849092 d:\programming\cpp project at class\testsdl\sdl2-2.0.20\x86_64-w64-mingw32\include\sdl2\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<wchar.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<math.h>
+	<float.h>
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	<sal.h>
+	"begin_code.h"
+	"close_code.h"
+
+1641849092 d:\programming\cpp project at class\testsdl\sdl2-2.0.20\x86_64-w64-mingw32\include\sdl2\sdl_config.h
+	"SDL_platform.h"
+	<winsdkver.h>
+
+1641849092 d:\programming\cpp project at class\testsdl\sdl2-2.0.20\x86_64-w64-mingw32\include\sdl2\sdl_platform.h
+	"AvailabilityMacros.h"
+	"TargetConditionals.h"
+	<winapifamily.h>
+	"begin_code.h"
+	"close_code.h"
+
+1641849092 d:\programming\cpp project at class\testsdl\sdl2-2.0.20\x86_64-w64-mingw32\include\sdl2\begin_code.h
+
+1641849092 d:\programming\cpp project at class\testsdl\sdl2-2.0.20\x86_64-w64-mingw32\include\sdl2\close_code.h
+
+1641849092 d:\programming\cpp project at class\testsdl\sdl2-2.0.20\x86_64-w64-mingw32\include\sdl2\sdl_assert.h
+	"SDL_config.h"
+	"begin_code.h"
+	<signal.h>
+	"close_code.h"
+
+1641849092 d:\programming\cpp project at class\testsdl\sdl2-2.0.20\x86_64-w64-mingw32\include\sdl2\sdl_atomic.h
+	"SDL_stdinc.h"
+	"SDL_platform.h"
+	"begin_code.h"
+	<sys/cpuinline.h>
+	<mbarrier.h>
+	"close_code.h"
+
+1641849092 d:\programming\cpp project at class\testsdl\sdl2-2.0.20\x86_64-w64-mingw32\include\sdl2\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641849092 d:\programming\cpp project at class\testsdl\sdl2-2.0.20\x86_64-w64-mingw32\include\sdl2\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641849092 d:\programming\cpp project at class\testsdl\sdl2-2.0.20\x86_64-w64-mingw32\include\sdl2\sdl_endian.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<endian.h>
+	<endian.h>
+	<sys/endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1641849092 d:\programming\cpp project at class\testsdl\sdl2-2.0.20\x86_64-w64-mingw32\include\sdl2\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641849092 d:\programming\cpp project at class\testsdl\sdl2-2.0.20\x86_64-w64-mingw32\include\sdl2\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_atomic.h"
+	"SDL_mutex.h"
+	<process.h>
+	<process.h>
+	<stdlib.h>
+	"begin_code.h"
+	"close_code.h"
+
+1641849092 d:\programming\cpp project at class\testsdl\sdl2-2.0.20\x86_64-w64-mingw32\include\sdl2\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641849092 d:\programming\cpp project at class\testsdl\sdl2-2.0.20\x86_64-w64-mingw32\include\sdl2\sdl_clipboard.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641849092 d:\programming\cpp project at class\testsdl\sdl2-2.0.20\x86_64-w64-mingw32\include\sdl2\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<intrin.h>
+	<arm_neon.h>
+	<altivec.h>
+	<arm_neon.h>
+	<armintr.h>
+	<arm_neon.h>
+	<arm64intr.h>
+	<arm64_neon.h>
+	<mm3dnow.h>
+	<immintrin.h>
+	<mmintrin.h>
+	<xmmintrin.h>
+	<emmintrin.h>
+	<pmmintrin.h>
+	"begin_code.h"
+	"close_code.h"
+
+1641849092 d:\programming\cpp project at class\testsdl\sdl2-2.0.20\x86_64-w64-mingw32\include\sdl2\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_quit.h"
+	"SDL_gesture.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641849092 d:\programming\cpp project at class\testsdl\sdl2-2.0.20\x86_64-w64-mingw32\include\sdl2\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641849092 d:\programming\cpp project at class\testsdl\sdl2-2.0.20\x86_64-w64-mingw32\include\sdl2\sdl_pixels.h
+	"SDL_stdinc.h"
+	"SDL_endian.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641849092 d:\programming\cpp project at class\testsdl\sdl2-2.0.20\x86_64-w64-mingw32\include\sdl2\sdl_rect.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_pixels.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641849092 d:\programming\cpp project at class\testsdl\sdl2-2.0.20\x86_64-w64-mingw32\include\sdl2\sdl_surface.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_blendmode.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641849092 d:\programming\cpp project at class\testsdl\sdl2-2.0.20\x86_64-w64-mingw32\include\sdl2\sdl_blendmode.h
+	"begin_code.h"
+	"close_code.h"
+
+1641849092 d:\programming\cpp project at class\testsdl\sdl2-2.0.20\x86_64-w64-mingw32\include\sdl2\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keycode.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641849092 d:\programming\cpp project at class\testsdl\sdl2-2.0.20\x86_64-w64-mingw32\include\sdl2\sdl_keycode.h
+	"SDL_stdinc.h"
+	"SDL_scancode.h"
+
+1641849092 d:\programming\cpp project at class\testsdl\sdl2-2.0.20\x86_64-w64-mingw32\include\sdl2\sdl_scancode.h
+	"SDL_stdinc.h"
+
+1641849092 d:\programming\cpp project at class\testsdl\sdl2-2.0.20\x86_64-w64-mingw32\include\sdl2\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641849092 d:\programming\cpp project at class\testsdl\sdl2-2.0.20\x86_64-w64-mingw32\include\sdl2\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641849092 d:\programming\cpp project at class\testsdl\sdl2-2.0.20\x86_64-w64-mingw32\include\sdl2\sdl_gamecontroller.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"SDL_sensor.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641849092 d:\programming\cpp project at class\testsdl\sdl2-2.0.20\x86_64-w64-mingw32\include\sdl2\sdl_sensor.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641849092 d:\programming\cpp project at class\testsdl\sdl2-2.0.20\x86_64-w64-mingw32\include\sdl2\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1641849092 d:\programming\cpp project at class\testsdl\sdl2-2.0.20\x86_64-w64-mingw32\include\sdl2\sdl_gesture.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641849092 d:\programming\cpp project at class\testsdl\sdl2-2.0.20\x86_64-w64-mingw32\include\sdl2\sdl_touch.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641849092 d:\programming\cpp project at class\testsdl\sdl2-2.0.20\x86_64-w64-mingw32\include\sdl2\sdl_filesystem.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641849092 d:\programming\cpp project at class\testsdl\sdl2-2.0.20\x86_64-w64-mingw32\include\sdl2\sdl_haptic.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641849092 d:\programming\cpp project at class\testsdl\sdl2-2.0.20\x86_64-w64-mingw32\include\sdl2\sdl_hidapi.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641849092 d:\programming\cpp project at class\testsdl\sdl2-2.0.20\x86_64-w64-mingw32\include\sdl2\sdl_hints.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641849092 d:\programming\cpp project at class\testsdl\sdl2-2.0.20\x86_64-w64-mingw32\include\sdl2\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641849092 d:\programming\cpp project at class\testsdl\sdl2-2.0.20\x86_64-w64-mingw32\include\sdl2\sdl_log.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641849092 d:\programming\cpp project at class\testsdl\sdl2-2.0.20\x86_64-w64-mingw32\include\sdl2\sdl_messagebox.h
+	"SDL_stdinc.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641849092 d:\programming\cpp project at class\testsdl\sdl2-2.0.20\x86_64-w64-mingw32\include\sdl2\sdl_metal.h
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641849092 d:\programming\cpp project at class\testsdl\sdl2-2.0.20\x86_64-w64-mingw32\include\sdl2\sdl_power.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641849092 d:\programming\cpp project at class\testsdl\sdl2-2.0.20\x86_64-w64-mingw32\include\sdl2\sdl_render.h
+	"SDL_stdinc.h"
+	"SDL_rect.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641849092 d:\programming\cpp project at class\testsdl\sdl2-2.0.20\x86_64-w64-mingw32\include\sdl2\sdl_shape.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641849092 d:\programming\cpp project at class\testsdl\sdl2-2.0.20\x86_64-w64-mingw32\include\sdl2\sdl_system.h
+	"SDL_stdinc.h"
+	"SDL_keyboard.h"
+	"SDL_render.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641849092 d:\programming\cpp project at class\testsdl\sdl2-2.0.20\x86_64-w64-mingw32\include\sdl2\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641849092 d:\programming\cpp project at class\testsdl\sdl2-2.0.20\x86_64-w64-mingw32\include\sdl2\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641849092 d:\programming\cpp project at class\testsdl\sdl2-2.0.20\x86_64-w64-mingw32\include\sdl2\sdl_locale.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641849092 d:\programming\cpp project at class\testsdl\sdl2-2.0.20\x86_64-w64-mingw32\include\sdl2\sdl_misc.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1619519804 d:\programming\cpp project at class\btlmarioproject\marioprojectfinal\marioprojectfinal\common.h
+	<SDL_rect.h>
+
+1619519804 source:d:\programming\cpp project at class\btlmarioproject\marioprojectfinal\marioprojectfinal\audiomanager.cpp
+	<iostream>
+	<ostream>
+	"constants.h"
+
+1652750296 d:\programming\cpp project at class\btlmarioproject\marioprojectfinal\marioprojectfinal\constants.h
+	"Common.h"
+	"DebugConstants.h"
+
+1619519804 d:\programming\cpp project at class\btlmarioproject\marioprojectfinal\marioprojectfinal\debugconstants.h
+
+1652752216 source:d:\programming\cpp project at class\btlmarioproject\marioprojectfinal\marioprojectfinal\character.cpp
+	<iostream>
+	"AnimatedSprite.h"
+	"constants.h"
+	"Texture2D.h"
+
+1619519804 d:\programming\cpp project at class\btlmarioproject\marioprojectfinal\marioprojectfinal\animatedsprite.h
+	"Common.h"
+	"Texture2D.h"
+
+1649662519 source:d:\programming\cpp project at class\btlmarioproject\marioprojectfinal\marioprojectfinal\collisions.cpp
+	"Collisions.h"
+	<cmath>
+	"Character.h"
+
+1619519804 d:\programming\cpp project at class\btlmarioproject\marioprojectfinal\marioprojectfinal\collisions.h
+	"Common.h"
+
+1652752216 d:\programming\cpp project at class\btlmarioproject\marioprojectfinal\marioprojectfinal\character.h
+	<SDL.h>
+	<string>
+	"AnimatedSprite.h"
+	"Common.h"
+	"LevelMap.h"
+
+1619519804 d:\programming\cpp project at class\btlmarioproject\marioprojectfinal\marioprojectfinal\levelmap.h
+	<string>
+	"constants.h"
+
+1652502348 source:d:\programming\cpp project at class\btlmarioproject\marioprojectfinal\marioprojectfinal\font.cpp
+	"Font.h"
+	<iostream>
+
+1652752766 d:\programming\cpp project at class\btlmarioproject\marioprojectfinal\marioprojectfinal\font.h
+	<string>
+	<SDL2/SDL_ttf.h>
+	"Common.h"
+	"Font.h"
+
+1547322290 d:\programming\cpp project at class\testsdl\sdl_ttf\sdl2_ttf-2.0.15\x86_64-w64-mingw32\include\sdl2\sdl_ttf.h
+	"SDL.h"
+	"begin_code.h"
+	"close_code.h"
+
+1619519804 source:d:\programming\cpp project at class\btlmarioproject\marioprojectfinal\marioprojectfinal\gamescreen.cpp
+	"GameScreen.h"
+	<iostream>
+
+1651199617 d:\programming\cpp project at class\btlmarioproject\marioprojectfinal\marioprojectfinal\gamescreen.h
+	<SDL.h>
+	"Common.h"
+	"AudioManager.h"
+
+1649662498 d:\programming\cpp project at class\btlmarioproject\marioprojectfinal\marioprojectfinal\audiomanager.h
+	<SDL2/SDL_mixer.h>
+	<string>
+	<vector>
+
+1540998018 d:\programming\cpp project at class\testsdl\sdl_mixer\x86_64-w64-mingw32\include\sdl2\sdl_mixer.h
+	"SDL_stdinc.h"
+	"SDL_rwops.h"
+	"SDL_audio.h"
+	"SDL_endian.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1619519804 source:d:\programming\cpp project at class\btlmarioproject\marioprojectfinal\marioprojectfinal\gamescreenerror.cpp
+	"Font.h"
+
+1619519804 source:d:\programming\cpp project at class\btlmarioproject\marioprojectfinal\marioprojectfinal\gamescreengameover.cpp
+	<iomanip>
+	<sstream>
+
+1652702309 source:d:\programming\cpp project at class\btlmarioproject\marioprojectfinal\marioprojectfinal\coin.cpp
+	"Character.h"
+
+1619519804 source:d:\programming\cpp project at class\btlmarioproject\marioprojectfinal\marioprojectfinal\enemy.cpp
+	"Texture2D.h"
+
+1619519804 source:d:\programming\cpp project at class\btlmarioproject\marioprojectfinal\marioprojectfinal\enemykoopa.cpp
+	"Common.h"
+	"Texture2D.h"
+
+1619519804 source:d:\programming\cpp project at class\btlmarioproject\marioprojectfinal\marioprojectfinal\gamescreenintro.cpp
+	<iostream>
+	<sstream>
+	"TextBox.h"
+
+1652752766 d:\programming\cpp project at class\btlmarioproject\marioprojectfinal\marioprojectfinal\textbox.h
+	"Font.h"
+
+1649662691 source:d:\programming\cpp project at class\btlmarioproject\marioprojectfinal\marioprojectfinal\gamescreenlevel1.cpp
+	<cmath>
+	<iostream>
+	"Collisions.h"
+	"PowBlock.h"
+	"GameScreenManager.h"
+
+1619519804 d:\programming\cpp project at class\btlmarioproject\marioprojectfinal\marioprojectfinal\powblock.h
+	"LevelMap.h"
+	"Texture2D.h"
+
+1619519804 d:\programming\cpp project at class\btlmarioproject\marioprojectfinal\marioprojectfinal\gamescreenmanager.h
+	<SDL.h>
+	"Common.h"
+	"AudioManager.h"
+
+1652413611 source:d:\programming\cpp project at class\btlmarioproject\marioprojectfinal\marioprojectfinal\gamescreenlevel2.cpp
+	<cmath>
+
+1652413236 source:d:\programming\cpp project at class\btlmarioproject\marioprojectfinal\marioprojectfinal\gamescreenlevelbase.cpp
+	"GameScreenLevelBase.h"
+	<iostream>
+	<iomanip>
+	<sstream>
+	"AnimatedSprite.h"
+	"Collisions.h"
+	"Font.h"
+	"Texture2D.h"
+	"SoundEffect.h"
+	"TextBox.h"
+
+1652404750 d:\programming\cpp project at class\btlmarioproject\marioprojectfinal\marioprojectfinal\gamescreenlevelbase.h
+	"Coin.h"
+	"GameScreen.h"
+	"LevelMap.h"
+	"PlayerMario.h"
+	"PlayerLuigi.h"
+	"EnemyKoopa.h"
+	"GameScreenManager.h"
+	"TextBox.h"
+
+1619519804 d:\programming\cpp project at class\btlmarioproject\marioprojectfinal\marioprojectfinal\coin.h
+	"Character.h"
+
+1619519804 d:\programming\cpp project at class\btlmarioproject\marioprojectfinal\marioprojectfinal\playermario.h
+	<string>
+	"Player.h"
+
+1619519804 d:\programming\cpp project at class\btlmarioproject\marioprojectfinal\marioprojectfinal\player.h
+	"Character.h"
+	"SoundEffect.h"
+
+1619519804 d:\programming\cpp project at class\btlmarioproject\marioprojectfinal\marioprojectfinal\soundeffect.h
+	"AudioManager.h"
+
+1619519804 d:\programming\cpp project at class\btlmarioproject\marioprojectfinal\marioprojectfinal\playerluigi.h
+	"Character.h"
+	"Player.h"
+
+1652404288 d:\programming\cpp project at class\btlmarioproject\marioprojectfinal\marioprojectfinal\enemykoopa.h
+	<string>
+	"Enemy.h"
+	"SoundEffect.h"
+
+1619519804 d:\programming\cpp project at class\btlmarioproject\marioprojectfinal\marioprojectfinal\enemy.h
+	"Character.h"
+	"SoundEffect.h"
+
+1652413611 source:d:\programming\cpp project at class\btlmarioproject\marioprojectfinal\marioprojectfinal\gamescreenmanager.cpp
+	<iostream>
+	"GameScreen.h"
+	"GameScreenError.h"
+	"GameScreenGameOver.h"
+	"GameScreenIntro.h"
+	"GameScreenLevel1.h"
+	"GameScreenLevel2.h"
+
+1619519804 d:\programming\cpp project at class\btlmarioproject\marioprojectfinal\marioprojectfinal\gamescreenerror.h
+	"GameScreen.h"
+	"TextBox.h"
+
+1619519804 d:\programming\cpp project at class\btlmarioproject\marioprojectfinal\marioprojectfinal\gamescreengameover.h
+	"Font.h"
+	"GameScreen.h"
+	"TextBox.h"
+
+1619519804 d:\programming\cpp project at class\btlmarioproject\marioprojectfinal\marioprojectfinal\gamescreenintro.h
+	"GameScreen.h"
+	"AudioManager.h"
+	"Font.h"
+	"GameScreenManager.h"
+	"TextBox.h"
+	"Texture2D.h"
+
+1619519804 d:\programming\cpp project at class\btlmarioproject\marioprojectfinal\marioprojectfinal\gamescreenlevel1.h
+	"GameScreenLevelBase.h"
+
+1619519804 d:\programming\cpp project at class\btlmarioproject\marioprojectfinal\marioprojectfinal\gamescreenlevel2.h
+	"GameScreenLevelBase.h"
+
+1619519804 source:d:\programming\cpp project at class\btlmarioproject\marioprojectfinal\marioprojectfinal\levelmap.cpp
+	<fstream>
+	<iostream>
+
+1652752766 source:d:\programming\cpp project at class\btlmarioproject\marioprojectfinal\marioprojectfinal\main.cpp
+	<iostream>
+	<string>
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<SDL2/SDL_ttf.h>
+	"AudioManager.h"
+	"constants.h"
+	"Common.h"
+	"GameScreenManager.h"
+
+1561870398 d:\programming\cpp project at class\testsdl\sdl_image\x86_64-w64-mingw32\include\sdl2\sdl_image.h
+	"SDL.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1619519804 source:d:\programming\cpp project at class\btlmarioproject\marioprojectfinal\marioprojectfinal\player.cpp
+
+1619519804 source:d:\programming\cpp project at class\btlmarioproject\marioprojectfinal\marioprojectfinal\playerluigi.cpp
+	"PlayerLuigi.h"
+
+1619519804 source:d:\programming\cpp project at class\btlmarioproject\marioprojectfinal\marioprojectfinal\playermario.cpp
+	"PlayerMario.h"
+
+1651202987 source:d:\programming\cpp project at class\btlmarioproject\marioprojectfinal\marioprojectfinal\powblock.cpp
+	<iostream>
+	<ostream>
+
+1619519804 source:d:\programming\cpp project at class\btlmarioproject\marioprojectfinal\marioprojectfinal\soundeffect.cpp
+
+1619519804 source:d:\programming\cpp project at class\btlmarioproject\marioprojectfinal\marioprojectfinal\textbox.cpp
+	"TextBox.h"
+
+1652411979 source:d:\programming\cpp project at class\btlmarioproject\marioprojectfinal\marioprojectfinal\texture2d.cpp
+	"Texture2D.h"
+	<iostream>
+	<SDL2/SDL_image.h>
+
