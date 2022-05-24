@@ -31,7 +31,7 @@ khi cả hai người chơi đều thua.
 
 trong trường hợp này đồng xu(Coin) mới xuất hiện.
 
-##3. Mô tả các chức năng đã cài đặt, kèm video minh họa (chèn link video youtube)
+## 3. Mô tả các chức năng đã cài đặt, kèm video minh họa (chèn link video youtube)
 
 + Mô tả chức năng đã cài đặt: 
 
@@ -53,7 +53,7 @@ trong trường hợp này đồng xu(Coin) mới xuất hiện.
 
 + Link Youtube: https://youtu.be/w7ehYYT0pbE
 
-##4. Các kỹ thuật lập trình được sử dụng: 
+## 4. Các kỹ thuật lập trình được sử dụng: 
 
 + Sử dụng mamg 2 chiều để đọc ma trận từ 1.txt (Map của Level 1) (trong LevelMap.cpp)
 
@@ -65,7 +65,7 @@ Sử dụng hàm ảo trong Lớp để tự định nghĩa lại trong hàm d�
 
 + Đồ họa : Sử dụng SDL_image: load file ảnh, SDL_ttf: xử lý font, SDL_mixer: xử lý âm thanh
 
-##5. Kết luận, hướng phát triển và các điều tâm đắc rút ra được sau khi hoàn thiện chương trình
+## 5. Kết luận, hướng phát triển và các điều tâm đắc rút ra được sau khi hoàn thiện chương trình
 
 + Kết luận: Thư viện SDL2 và  ngôn ngữ C++ hỗ trợ khá tốt cho lập trình game 2D. Việc khai báo tên theo kiểu kể chuyện giúp kiểm soát được logic game tốt hơn trong quá 
 
